@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            border: 2px solid #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+        }
+        #output {
+            font-size: 20px;
+            color: blue;
+            margin-top: 10px;
+        }
+        .list {
+            list-style: none;
+            padding: 0;
+        }
+        .list li {
+            background: #f2f2f2;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .list li:hover {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Manipulation Practice</h1>
+    <div class="container">
+        <h2 id="titl">Change this title</h2>
+        <button id="change_titl">Change Title</button>
+        
+        <p id="outpu">Output will be shown here...</p>
+        
+        <input type="text" id="text-inpu" placeholder="Enter text">
+        <button id="update-tex">Update Text</button>
+        
+        <ul class="list" id="item-lis">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button id="add-ite">Add Item</button>
+        <button id="remove-ite">Remove Last Item</button>
+    </div>
+    <h1>DOM Manipulation Practice</h1>
+    <div class="container">
+        <h2 id="title">Change this title</h2>
+        <button id="change-title">Change Title</button>
+        
+        <p id="output">Output will be shown here...</p>
+        
+        <input type="text" id="text-input" placeholder="Enter text">
+        <button id="update-text">Update Text</button>
+        
+        <ul class="list" id="item-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button id="add-item">Add Item</button>
+        <button id="remove-item">Remove Last Item</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
